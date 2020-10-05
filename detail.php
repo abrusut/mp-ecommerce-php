@@ -45,6 +45,7 @@
 
 
 <?php
+error_reporting(E_ERROR);
     // SDK de Mercado Pago
     require __DIR__ .  '/vendor/autoload.php';
 
@@ -54,11 +55,64 @@
     // Crea un objeto de preferencia
     $preference = new MercadoPago\Preference();
 
-    // Crea un ítem en la preferencia
+    $preference->back_urls = array(
+        "success" => "http://localhost:83/mp-ecommerce-php/success.php",
+        "failure" => "http://localhost:83/mp-ecommerce-php/failure.php",
+        "pending" => "http://localhost:83/mp-ecommerce-php/pending.php"
+    );
+    // $preference->auto_return = "approved";
+
+    $payment_methods = json_encode('{
+        "excluded_payment_methods": [
+            {
+                "id": "master"
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": "ticket"
+            }
+        ],
+        "installments": 12
+    }');
+
+    $preference->payment_methods = json_decode($payment_methods);
+
+    $preference->statement_descriptor = 'UTN FRSF';
+
+    $preference->external_reference = "andresbrusutti@gmail.com";
+
+    $payer = new MercadoPago\Payer();
+    $payer->name = "Lalo";
+    $payer->surname = "Landa";
+    $payer->email = 'test_user_63274575@testuser.com';
+    $payer->phone = [
+            "area_code" => "11",
+            "number" => "22223333"
+    ];
+    $payer->identification = [
+            "type" => "DNI",
+            "number"=> "12345678"
+    ];
+    $payer->address = [
+            "street_name" => "False",
+            "street_number"=> 123,
+            "zip_code"=> "1111"
+    ];
+
+    $preference->payer = $payer;
+
+// Crea un ítem en la preferencia
     $item = new MercadoPago\Item();
+    $item->id = "1234";
     $item->title = $_POST['title'];
+    $item->description = $_POST['title'].' Dispositivo móvil de Tienda e-commerce';
+    $item->picture_url = 'https://abrusut-mp-commerce-php.herokuapp.com/assets/samsung-galaxy-s9-xxl.jpg';
     $item->quantity = $_POST['unit'];
     $item->unit_price =  $_POST['price'];
+    $item->category_id = "learnings";
+    $item->currency_id = "ARS";
+
     $preference->items = array($item);
     $preference->save();
 ?>
@@ -154,6 +208,7 @@
                                            Cantidad:  <?php echo $_POST['unit'] ?>
                                         </h3>
                                     </div>
+                                    <a href="<?php echo $preference->init_point; ?>">Pagar con Mercado Pago</a>
                                     <form action="detail.php" method="POST">
                                         <script
                                                 src="https://www.mercadopago.com.ar/integrations/v1/web-tokenize-checkout.js"

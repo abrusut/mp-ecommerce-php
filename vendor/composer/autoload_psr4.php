@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'MercadoPago\\' => array($vendorDir . '/mercadopago/dx-php/src/MercadoPago', $vendorDir . '/mercadopago/dx-php/tests', $vendorDir . '/mercadopago/dx-php/src/MercadoPago/Generic', $vendorDir . '/mercadopago/dx-php/src/MercadoPago/Entities', $vendorDir . '/mercadopago/dx-php/src/MercadoPago/Entities/Shared'),
     'Doctrine\\Persistence\\' => array($vendorDir . '/doctrine/persistence/lib/Doctrine/Persistence'),
     'Doctrine\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib/Doctrine/Inflector'),

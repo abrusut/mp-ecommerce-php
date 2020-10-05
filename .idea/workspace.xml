@@ -20,21 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abc850ec-e526-4ef8-bfd5-2431645961ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mp-ecommerce-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mp-ecommerce-php.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9003" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="bc157429-162f-4504-86b3-c98ac154419f" name="localhost" port="83" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/html/mp-ecommerce-php" />
+        </path_mappings>
+      </server>
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -49,8 +66,11 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
       <path value="$PROJECT_DIR$/vendor/mercadopago/dx-php" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
     </include_path>
   </component>
+  <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="localhost" port="9003" />
   <component name="ProjectId" id="1iPv9rlGKLYKOnscJsWC0TT3yC8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,7 +87,16 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost" start_url="/mp-ecommerce-php">
+      <method v="2" />
+    </configuration>
+    <configuration name="debug" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost" start_url="/mp-ecommerce-php">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,7 +106,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601821893572</updated>
-      <workItem from="1601821896202" duration="4717000" />
+      <workItem from="1601821896202" duration="5119000" />
+      <workItem from="1601855915258" duration="98000" />
+      <workItem from="1601918404581" duration="5427000" />
     </task>
     <servers />
   </component>
@@ -94,11 +125,92 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="266" y="21" width="824" height="678" key="#Servers" timestamp="1601920621808">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="266" y="21" width="824" height="678" key="#Servers/0.0.1366.728@0.0.1366.728" timestamp="1601920621808" />
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601920653374">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601920653374" />
     <state x="410" y="168" width="536" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601825498465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="410" y="168" width="536" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1601825498464" />
+    <state width="1324" height="217" key="GridCell.Tab.0.bottom" timestamp="1601924587577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601924587577" />
+    <state width="1324" height="217" key="GridCell.Tab.0.center" timestamp="1601924587577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601924587577" />
+    <state width="1324" height="217" key="GridCell.Tab.0.left" timestamp="1601924587577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601924587577" />
+    <state width="1324" height="217" key="GridCell.Tab.0.right" timestamp="1601924587577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601924587577" />
+    <state width="1324" height="217" key="GridCell.Tab.1.bottom" timestamp="1601924591558">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601924591558" />
+    <state width="1324" height="217" key="GridCell.Tab.1.center" timestamp="1601924591555">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601924591555" />
+    <state width="1324" height="217" key="GridCell.Tab.1.left" timestamp="1601924591552">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601924591552" />
+    <state width="1324" height="217" key="GridCell.Tab.1.right" timestamp="1601924591557">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601924591557" />
+    <state width="1324" height="217" key="GridCell.Tab.2.bottom" timestamp="1601924587429">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601924587429" />
+    <state width="1324" height="217" key="GridCell.Tab.2.center" timestamp="1601924587428">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1601924587428" />
+    <state width="1324" height="217" key="GridCell.Tab.2.left" timestamp="1601924587428">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1601924587428" />
+    <state width="1324" height="217" key="GridCell.Tab.2.right" timestamp="1601924587429">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="217" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1601924587429" />
+    <state x="501" y="289" width="354" height="141" key="NewPhpFileDialog" timestamp="1601923883385">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="501" y="289" width="354" height="141" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1601923883385" />
+    <state x="187" y="0" key="SettingsEditor" timestamp="1601920582084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601920582084" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/detail.php</url>
+          <line>55</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/success.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
